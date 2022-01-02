@@ -1,0 +1,33 @@
+CYBR372 Assignment 2
+Joshua Cook-Harding
+300450882
+
+Parts completed:
+1
+2
+
+HOW TO RUN THIS PROGRAM
+
+Part 1:
+In order to run this program, run both the client and the server, then within the terminal, copy the key from
+the client into the server and vice versa. From here the program will send messages and encrypt/decrypt
+them, before automatically shutting down.
+Part 2:
+In order to run this program, run both the client and the server. If you are running this from the
+commandline, you need to enter the password which in this case is "badpassword". From here the
+program will send messages and encrypt/decrypt them, before automatically shutting down.
+
+DESIGN CHOICES
+
+My design choices in this program have changed throughout the programming process. Initially I had a design where
+I split up each action for the program into separate methods as I thought that would be easier to read and
+easier to debug. However I came across a lot of issues designing my program this way so I eventually decided
+to move all of my methods into my main sendMessage method in my client. This made the code easier to program
+as I was passing the same variables down through the same method rather than having lots of fields and multiple
+different variables.
+
+TESTING
+
+In order to test and bugfix this program, I used a combination of print statements throughout the code, and
+error messages such as exceptions that I can print the stack trace to. This helped me figure out where I had
+gone wrong in my code and I used this to create a completely bug-free program.
